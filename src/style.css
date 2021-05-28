@@ -1,0 +1,82 @@
+.main {
+  margin: auto 4rem;
+}
+h2 {
+  text-align: center;
+}
+.hero {
+  height: 30rem;
+  min-width: 250px;
+  max-width: 900px;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  background: rgb(247, 193, 32);
+  background: linear-gradient(
+    135deg,
+    rgba(247, 193, 32, 1) 20%,
+    rgba(238, 91, 37, 1) 80%
+  );
+  border-radius: 2rem;
+  position: relative;
+}
+.value {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -45px;
+  font-size: 5rem;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: #fff;
+  padding: 0.3rem 1rem;
+  font-size: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dec {
+  margin-left: -30px;
+  left: 0;
+  box-shadow: -6px 0 10px 0px #cfcfcf;
+}
+
+.inc {
+  margin-right: -30px;
+  right: 0;
+  box-shadow: 6px 0 10px 0px #cfcfcf;
+}
+
+.btnReset {
+  background-image: linear-gradient(
+    to right,
+    #348f50 0%,
+    #56b4d3 51%,
+    #348f50 135%
+  );
+  margin: 0 auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 1rem;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.btnReset:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+.btnC {
+  display: flex;
+  justify-content: center;
+}
