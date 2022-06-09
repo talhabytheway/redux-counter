@@ -1,5 +1,5 @@
-# Getting Started with Create React App
-
+# Redux Counter
+The redux-counter was a project/assignment to dive into redux, A react state management library.
 This project was `hosted` with [Firebase](https://counter-tbtw.web.app).
 
 ## Available Scripts
